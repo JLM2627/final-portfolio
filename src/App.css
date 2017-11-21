@@ -1,4 +1,9 @@
 Body {
-  background-image: url(https://i.imgur.com/Qp9axpC.png)
+  background-image: url(https://i.imgur.com/HQUX6AM.png);
+  background-size: 100%;
+  /* background-size: cover; */
+/* width: 100%; */
+
   /* text-align: center; */
 }
+
