@@ -9,7 +9,8 @@ padding-top:10px;
 padding-bottom: 19px;
 justify-content: space-around;
 font-size: 15px;
-background: rgba(255, 255, 255);
+color: white;
+/* background: rgba(255, 255, 255); */
 font-family: 'Josefin Slab';
 text-align: right;
 `
@@ -17,7 +18,7 @@ const LinkStyle = styled.div`
 text-decoration: none;
 text-align: right;
 color: white;
-opacity: 0.3;
+/* opacity: 0.3; */
 margin: 10px;
 `;
 

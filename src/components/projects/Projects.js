@@ -19,7 +19,7 @@ flex-direction: column;
 margin: 15px;
 `
 const ProjectDisplay = styled.div`
-//background-image: url(https://i.imgur.com/AnGTD8V.png);
+/* background-image: url(https://i.imgur.com/AnGTD8V.png); */
 //background-size: cover;
 border: 5px double white;
 padding: 5px;

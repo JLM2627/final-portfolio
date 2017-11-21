@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
-import PortfolioWrapper from './components/static/PortfolioWrapper'
+// import PortfolioWrapper from './components/static/PortfolioWrapper'
 import styled from "styled-components";
 import Home from './components/home/Home';
 import About from './components/about/About';
 import Projects from './components/projects/Projects'
+import NavBar from './components/static/NavBar'
 // import logo from './logo.svg';
 import './App.css';
  
@@ -14,7 +15,8 @@ class App extends Component {
     return (
       <div>
         <Router>
-          <div><PortfolioWrapper />
+        
+          <div><NavBar />
           
           <Switch>
               <Route exact path="/" component={Home} />
