@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-// import AboutMe from '../AboutMe/AboutMe';
-// import AllProjects from '../Projects/AllProjects'
+import { Link } from 'react-router-dom';
 import styled from "styled-components";
-
 
 const StyledNavBar = styled.div`
 height: 10px;
@@ -15,7 +13,7 @@ background: rgba(255, 255, 255);
 font-family: 'Josefin Slab';
 text-align: right;
 `
-const HeadLink = styled.a`
+const LinkStyle = styled.div`
 text-decoration: none;
 text-align: right;
 color: white;
@@ -28,9 +26,9 @@ class NavBar extends Component {
         return (
             <StyledNavBar>
             <div>
-                    <HeadLink href={"/"}>Home</HeadLink>
-                    <HeadLink href="/About">About Me</HeadLink>  
-                <HeadLink href="/Projects">Projects</HeadLink>    
+                <LinkStyle><Link to="/">Home</Link></LinkStyle>
+                <LinkStyle><Link to="/projects">Projects</Link></LinkStyle>
+                <LinkStyle><Link to="/about">About</Link></LinkStyle>
             </div>
             </StyledNavBar>
         );
