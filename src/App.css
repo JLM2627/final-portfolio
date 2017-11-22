@@ -1,18 +1,20 @@
 Body {
-  background: url(https://i.imgur.com/wMHCKwj.png?1) no-repeat center center fixed;
+  background: url(https://i.imgur.com/HQUX6AM.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   
  
- 
+}
+
+/* https://i.imgur.com/wMHCKwj.png?1 */
   /* background-size: 100%; */
   /* background-size: cover; */
 /* width: 100%; */
 
   /* text-align: center; */
-}
+
 
 
 
