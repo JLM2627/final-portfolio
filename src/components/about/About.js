@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Contact from './Contact';
 
+const ProjectWrapper = styled.div`
+width: 100vw;
+height: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-content: center;
+`
+
 
 const Title = styled.h1`
 color: white;
@@ -15,7 +24,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                 
+                 <ProjectWrapper>
                 <Contact />  
                 <p>
               <Title><h1>About</h1></Title>                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><br />
@@ -28,7 +37,7 @@ class About extends Component {
                 Sed quis tortor scelerisque, tempus arcu id, efficitur lorem.<br/>
                     Cras a quam vitae odio malesuada finibus.<br />
                     </p>    
-
+                    </ProjectWrapper>
             </div>
         );
     }

@@ -3,7 +3,12 @@ import { Link } from 'react-router-dom';
 import styled from "styled-components";
 
 const StyledNavBar = styled.div`
-height: 10px;
+ height: 50px;
+  display: flex;
+  padding-bottom: 18px;
+  justify-content: space-around;
+  align-items: center;
+/* height: 10px;
 display: block;
 padding-top:10px;
 padding-bottom: 19px;
@@ -11,12 +16,12 @@ justify-content: space-around;
 font-size: 15px;
 color: white;
 /* background: rgba(255, 255, 255); */
-font-family: 'Josefin Slab';
-text-align: right;
+/* font-family: 'Josefin Slab';
+text-align: right;  */
 `
 const LinkStyle = styled.div`
 text-decoration: none;
-text-align: right;
+/* text-align: right; */
 color: white;
 /* opacity: 0.3; */
 margin: 10px;

@@ -33,7 +33,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Title><h1>This is the homepage</h1></Title>
+                <Title><h1>Jayme Marshall</h1></Title>
                 <SubTitle>  <div>Empathetic Full Stack Developer</div><br /></SubTitle>
              <Comment><div>I care about you and the problems you want to solve</div></Comment>  
                
