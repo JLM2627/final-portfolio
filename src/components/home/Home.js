@@ -8,7 +8,24 @@ text-align: center;
 font-family: 'Monoton';
 font-size: 38px;
 color: white;
-opacity: 0.6;
+/* opacity: 0.6; */
+`
+const SubTitle = styled.div`
+position: relative;
+margin: -145px 0px 0px 0px;
+text-align: center;
+font-family: 'Josefin Slab';
+font-size: 16px;
+color: white;
+`
+
+const Comment = styled.div`
+margin: -10px;
+font-family: 'Josefin Slab';
+text-align: center;
+/* font-family: 'Press Start 2P'; */
+font-size: 16px;
+color: white;
 `
 
 
@@ -17,6 +34,8 @@ class Home extends Component {
         return (
             <div>
                 <Title><h1>This is the homepage</h1></Title>
+                <SubTitle>  <div>Empathetic Full Stack Developer</div><br /></SubTitle>
+             <Comment><div>I care about you and the problems you want to solve</div></Comment>  
                
             </div>
         );
