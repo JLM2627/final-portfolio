@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import Contact from './Contact';
 
+
+const Title = styled.h1`
+color: white;
+
+
+
+
+
+`
 class About extends Component {
     render() {
         return (
@@ -8,8 +18,7 @@ class About extends Component {
                  
                 <Contact />  
                 <p>
-                <h1>About</h1> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><br />
+              <Title><h1>About</h1></Title>                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><br />
                 Vivamus at tellus ut urna vehicula volutpat eu quis nisi. <br /><br />
                 Morbi elementum arcu ultrices, bibendum justo ac, molestie elit. <br />
                 Sed nec nibh congue, tristique tellus interdum, mattis libero.<br/>
