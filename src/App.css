@@ -1,11 +1,25 @@
 Body {
-  background-image: url(https://i.imgur.com/Lcqdza7.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 
+  background: url(https://i.imgur.com/wMHCKwj.png?1) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+ 
+ 
   /* background-size: 100%; */
   /* background-size: cover; */
 /* width: 100%; */
 
   /* text-align: center; */
 }
+
+
+
+
+
+
+
+/* background-image: url(https://i.imgur.com/Lcqdza7.png);
+background-repeat: no-repeat;
+background-position: center; */
