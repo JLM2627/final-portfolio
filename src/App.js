@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div>
         <Router>
-        
+        <div>
           <div><NavBar />
           
           <Switch>
@@ -25,6 +25,8 @@ class App extends Component {
               <Route exact path='/Projects' component={Projects} />             
               <Route exact path='/Contact' component={Contact} />
             </Switch>
+          </div>  
+            {/* <div><Projects /></div> */}
             </div>  
         </Router>
       </div>

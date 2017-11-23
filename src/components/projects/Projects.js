@@ -19,9 +19,11 @@ flex-direction: column;
 margin: 100px;
 `
 const ProjectDisplay = styled.div`
-/* rgba: (0, 0, 0, 0.5) */
 /* background-image: url(https://i.imgur.com/AnGTD8V.png); */
 background-size: cover;
+/* background-color: white;
+rgba: (0, 0, 0, 0);
+opacity: 0.2; */
 /* border: 5px double white; */
 /* padding: 5px; */
 text-align: center;
@@ -38,7 +40,8 @@ h3 {
 p {
     font-family: 'Roboto Mono', monospace;
     font-size: 17px;
-    color: white;
+    font-weight: bold;
+    color: black;
 }
 `
 const ProjectLinks = styled.div`
