@@ -5,6 +5,8 @@ Body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
+}
+ 
 
    /* -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -12,7 +14,7 @@ Body {
   background-size: cover; */
   
  
-}
+
 
 /* https://i.imgur.com/wMHCKwj.png?1 */
   /* background-size: 100%;  */

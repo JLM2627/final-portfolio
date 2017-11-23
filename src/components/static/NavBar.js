@@ -3,22 +3,27 @@ import { Link } from 'react-router-dom';
 import styled from "styled-components";
 
 const StyledNavBar = styled.div`
-height: 10px;
-display: block;
-padding-top:10px;
-padding-bottom: 19px;
-justify-content: space-around;
-font-size: 15px;
-background: rgba(255, 255, 255);
-font-family: 'Josefin Slab';
-text-align: right;
+ display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-justify-content: flex-end;
+   justify-content: flex-end;
+   margin: 10px;
+   font-family: 'Josefin Slab';
+ /* display: flex;
+ justify-content: space-between;
+align-items: left; */
+
+/* text-decoration: none;
+text-align:right;
+color: white; */
 `
 const LinkStyle = styled.div`
-text-decoration: none;
-display: inline;
-text-align: right;
-color: white;
-opacity: 0.3;
+ display: inline;
+/* float: right; */
+
+opacity: 0.4;
 margin: 10px;
 `;
 
@@ -27,9 +32,9 @@ class NavBar extends Component {
         return (
             <StyledNavBar>
             <div>
-                <LinkStyle><Link to="/">Home</Link></LinkStyle>
-                <LinkStyle><Link to="/projects">Projects</Link></LinkStyle>
-                <LinkStyle><Link to="/about">About</Link></LinkStyle>
+                <LinkStyle><Link to="/"style={{ textDecoration: 'none', color: 'white' }}>Home</Link></LinkStyle>
+                <LinkStyle><Link to="/projects"style={{ textDecoration: 'none', color: 'white' }}>Projects</Link></LinkStyle>
+                <LinkStyle><Link to="/about"style={{ textDecoration: 'none', color: 'white' }}>About</Link></LinkStyle>
             </div>
             </StyledNavBar>
         );
