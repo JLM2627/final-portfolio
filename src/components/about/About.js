@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-// import Contact from './Contact';
+
 
 const AboutWrapper = styled.div`
 width: 100vw;
@@ -22,12 +22,15 @@ h1 {
     padding: 1px;
     letter-spacing: 1px;
     margin: 8px;
+    text-align: center;
  
 }
 p {
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
     font-size: 20px;
     color: white;
+
 }
 `  
 
@@ -43,15 +46,15 @@ class About extends Component {
                  <AboutWrapper>
                < AboutDescription>    
                 
-              <h1>Background:</h1>
-              <p> Vivamus at tellus ut urna vehicula volutpat eu quis nisi. <br />
-                Morbi elementum arcu ultrices, bibendum justo ac, molestie elit. <br />
-                Sed nec nibh congue, tristique tellus interdum, mattis libero.<br/>
-                In vulputate mi et sodales ultrices.<br/>
-                Etiam vitae enim ut quam suscipit sodales in et ligula.<br/>
-                Quisque vulputate tellus in lorem elementum, sed pharetra lectus commodo.<br/>
-                Sed quis tortor scelerisque, tempus arcu id, efficitur lorem.<br/>
-                    Cras a quam vitae odio malesuada finibus.<br />
+              <h1>Background</h1>
+              <p> Vivamus at tellus ut urna vehicula volutpat eu quis nisi. 
+                Morbi elementum arcu ultrices, bibendum justo ac, molestie elit.
+                Sed nec nibh congue, tristique tellus interdum, mattis libero.
+                In vulputate mi et sodales ultrices.
+                Etiam vitae enim ut quam suscipit sodales in et ligula.
+                Quisque vulputate tellus in lorem elementum, sed pharetra lectus commodo.
+                Sed quis tortor scelerisque, tempus arcu id, efficitur lorem.
+                    Cras a quam vitae odio malesuada finibus.
                         </p>   
                         </AboutDescription>     
                     </AboutWrapper>

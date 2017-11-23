@@ -16,7 +16,7 @@ width: auto;
 height: auto;
 display: flex;
 flex-direction: column;
-margin: 50px;
+margin: 100px;
 `
 const ProjectDisplay = styled.div`
 /* rgba: (0, 0, 0, 0.5) */

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 
-// STYLES
 const ContactWrapper = styled.div`
 width: 100vw;
 height: auto;
@@ -11,7 +10,6 @@ justify-content: space-around;
 flex-wrap: wrap;
 align-content: center;
 `
-
 const ContactDescription = styled.div`
 width: auto;
 height: auto;
@@ -23,7 +21,7 @@ h1 {
     font-size: 36px;
     padding: 1px;
     letter-spacing: 1px;
-    margin: 10px;
+    margin: 8px;
     /* text-align:center; */
  
 }
