@@ -32,11 +32,11 @@ h3 {
     padding: 1px;
     letter-spacing: 1px;
     margin: 8px;
-    background-color: yellow;
+    background-color: white;
 }
 p {
     font-family: 'Roboto Mono', monospace;
-    font-size: 9px;
+    font-size: 15px;
     color: white;
 }
 `
@@ -46,14 +46,14 @@ justify-content: space-around;
 a {
     font-family: 'Roboto Mono', monospace;
     font-size: 9px;
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 11px;
     letter-spacing: 7px;
     text-align: center;
     padding: 5px;
-    background-color: blue;
-    box-shadow: -2px 2px 0px red;
+    background-color: white;
+    /* box-shadow: -2px 2px 0px red; */
 }
 `
 
@@ -65,16 +65,16 @@ class Projects extends Component {
                 <ProjectWrapper>
                     <Project>
                         <ProjectDisplay>
-                            <h3>Project 1</h3>
-                            <p>short description</p>
+                            <h3>Desserts For Every Mood</h3>
+                            <p>This project is an app in which a user is looking for a dessert that will match their "mood". the user creates an acct and then is redirected to the landing page. from the landing page, the user can then pick from 3 preselected emotions that will return specific recipes corresponding with the selected emotion.</p>
                         </ProjectDisplay>
                         <ProjectLinks>
-                        <a href="https://github.com" target="_blank" >GitHub</a>
-                        <a href="herokuapp.com/" target="_blank" >Deplyed</a>
+                        <a href="https://github.com/JLM2627/DFEM" target="_blank" >GitHub</a>
+                        <a href="https://dry-garden-60079.herokuapp.com/" target="_blank" >Deployed</a>
                         </ProjectLinks>
                     </Project>
 
-                    <Project>
+                    {/* <Project>
                     <ProjectDisplay>
                         <h3>Project Title</h3>
                         <p>Short description</p>
@@ -83,7 +83,7 @@ class Projects extends Component {
                         <a href="https://github.com/" target="_blank" >GitHub</a>
                         <a href="herokuapp.com/" target="_blank" >Deployed</a>
                     </ProjectLinks>
-                </Project>
+                </Project> */}
                 </ProjectWrapper>
             </div>
         );

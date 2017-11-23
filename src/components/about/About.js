@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Contact from './Contact';
+// import Contact from './Contact';
 
 const ProjectWrapper = styled.div`
-width: 100vw;
+/* width: 100vw;
 height: auto;
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
-align-content: center;
+align-content: center; */
 `
 
 
@@ -25,7 +25,7 @@ class About extends Component {
         return (
             <div>
                  <ProjectWrapper>
-                <Contact />  
+                {/* <Contact />   */}
                 <p>
               <Title><h1>About</h1></Title><br /><br />
                 Vivamus at tellus ut urna vehicula volutpat eu quis nisi. <br /><br />

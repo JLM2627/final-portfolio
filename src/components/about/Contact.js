@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 // STYLES
 const Wrapper = styled.div`
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     width: 100vw;
     height: 50vh;
@@ -12,7 +12,7 @@ const Wrapper = styled.div`
     font-family: 'Roboto Mono', monospace;
     font-size: 10px;
     letter-spacing: 5px;
-    margin-top: -15px;
+    margin-top: -15px; */
 `
 
 class Contact extends Component {
@@ -22,7 +22,7 @@ class Contact extends Component {
                 {/* <NavBar /> */}
                 
                 <Wrapper>
-                    <div>HERE WILL BE ALL OF MY LINKS</div>
+                    <div></div>
                 </Wrapper>
             </div>
         );
