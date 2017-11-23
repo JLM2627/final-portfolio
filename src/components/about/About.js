@@ -19,9 +19,9 @@ margin: 15px;
 h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 36px;
-    padding: 1px;
+    /* padding: 1px; */
     letter-spacing: 1px;
-    margin: 8px;
+    /* margin: 8px; */
  
 }
 p {

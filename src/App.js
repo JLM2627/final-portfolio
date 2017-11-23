@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-ro
 import styled from "styled-components";
 import Home from './components/home/Home';
 import About from './components/about/About';
+import Contact from './components/about/Contact';
 import Projects from './components/projects/Projects'
 import NavBar from './components/static/NavBar'
 // import logo from './logo.svg';
@@ -22,7 +23,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route exact path='/About' component={About} />    
               <Route exact path='/Projects' component={Projects} />             
-
+              <Route exact path='/Contact' component={Contact} />
             </Switch>
             </div>  
         </Router>

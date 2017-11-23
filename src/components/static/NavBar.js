@@ -34,7 +34,8 @@ class NavBar extends Component {
             <div>
                 <LinkStyle><Link to="/"style={{ textDecoration: 'none', color: 'white' }}>Home</Link></LinkStyle>
                 <LinkStyle><Link to="/projects"style={{ textDecoration: 'none', color: 'white' }}>Projects</Link></LinkStyle>
-                <LinkStyle><Link to="/about"style={{ textDecoration: 'none', color: 'white' }}>About</Link></LinkStyle>
+                    <LinkStyle><Link to="/about" style={{ textDecoration: 'none', color: 'white' }}>About</Link></LinkStyle>
+                    <LinkStyle><Link to="/contact"style={{ textDecoration: 'none', color: 'white' }}>Contact</Link></LinkStyle>    
             </div>
             </StyledNavBar>
         );
