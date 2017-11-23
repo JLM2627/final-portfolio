@@ -27,8 +27,10 @@ h1 {
     /* text-align:center; */
  
 }
-p {
+a {
+    text-decoration: none;
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
     font-size: 20px;
     color: white;
     margin: 8px;
@@ -43,11 +45,12 @@ class Contact extends Component {
                 
                 <ContactWrapper>
                     <ContactDescription>
-                        <h1>Let's Chat</h1>
+                        <h1>Let's Connect</h1>
                     
-                        <p>Email: arcal619@gmail.com</p>
-                        <p>Email: arcal619@gmail.com</p>
-                        <p>Email: arcal619@gmail.com</p>
+                        {/* <p>Email: arcal619@gmail.com</p> */}
+                        <a href="https://www.linkedin.com/in/jayme-marshall/" target="_blank" >Linkedin</a>
+                        <a href="https://github.com/JLM2627" target="_blank" >GitHub</a>
+                        <a>arcal619@gmail.com</a>
                         
                         </ContactDescription>    
                 </ContactWrapper>
