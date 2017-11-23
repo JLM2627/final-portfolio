@@ -27,7 +27,7 @@ class About extends Component {
                  <ProjectWrapper>
                 <Contact />  
                 <p>
-              <Title><h1>About</h1></Title>                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /><br />
+              <Title><h1>About</h1></Title><br /><br />
                 Vivamus at tellus ut urna vehicula volutpat eu quis nisi. <br /><br />
                 Morbi elementum arcu ultrices, bibendum justo ac, molestie elit. <br />
                 Sed nec nibh congue, tristique tellus interdum, mattis libero.<br/>

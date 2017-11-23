@@ -12,7 +12,7 @@ color: white;
 `
 const SubTitle = styled.div`
 position: relative;
-margin: -145px 0px 0px 0px;
+/* margin: -145px 0px 0px 0px; */
 text-align: center;
 font-family: 'Josefin Slab';
 font-size: 16px;
