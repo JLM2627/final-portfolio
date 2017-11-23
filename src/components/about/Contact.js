@@ -23,14 +23,15 @@ h1 {
     font-size: 36px;
     padding: 1px;
     letter-spacing: 1px;
-    margin: 8px;
-    text-align:center;
+    margin: 10px;
+    /* text-align:center; */
  
 }
 p {
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     color: white;
+    margin: 8px;
 }
 `
 
@@ -43,10 +44,11 @@ class Contact extends Component {
                 <ContactWrapper>
                     <ContactDescription>
                         <h1>Let's Chat</h1>
-                        <div>
-                            <p>Email: arcal619@gmail.com</p>
-                            <h2></h2>
-                        </div>
+                    
+                        <p>Email: arcal619@gmail.com</p>
+                        <p>Email: arcal619@gmail.com</p>
+                        <p>Email: arcal619@gmail.com</p>
+                        
                         </ContactDescription>    
                 </ContactWrapper>
             </div>

@@ -16,20 +16,20 @@ width: auto;
 height: auto;
 display: flex;
 flex-direction: column;
-margin: 15px;
+margin: 50px;
 `
 const ProjectDisplay = styled.div`
-rgba: (0, 0, 0, 0.5)
+/* rgba: (0, 0, 0, 0.5) */
 /* background-image: url(https://i.imgur.com/AnGTD8V.png); */
-/* background-size: cover; */
-border: 5px double white;
-padding: 5px;
+background-size: cover;
+/* border: 5px double white; */
+/* padding: 5px; */
 text-align: center;
-width: 250px;
-height: 250px;
+width: 325px;
+height: 325px;
 h3 {
     font-family: 'Roboto Mono', monospace;
-    font-size: 10px;
+    font-size: 25px;
     padding: 1px;
     letter-spacing: 1px;
     margin: 8px;
@@ -37,7 +37,7 @@ h3 {
 }
 p {
     font-family: 'Roboto Mono', monospace;
-    font-size: 15px;
+    font-size: 17px;
     color: white;
 }
 `
@@ -46,7 +46,7 @@ display: flex;
 justify-content: space-around;
 a {
     font-family: 'Roboto Mono', monospace;
-    font-size: 9px;
+    font-size: 12px;
     color: black;
     text-decoration: none;
     margin: 11px;

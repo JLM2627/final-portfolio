@@ -15,13 +15,13 @@ width: auto;
 height: auto;
 display: flex;
 flex-direction: column;
-margin: 15px; 
+margin: 100px; 
 h1 {
     font-family: 'Roboto Mono', monospace;
     font-size: 36px;
-    /* padding: 1px; */
+    padding: 1px;
     letter-spacing: 1px;
-    /* margin: 8px; */
+    margin: 8px;
  
 }
 p {
@@ -44,7 +44,7 @@ class About extends Component {
                < AboutDescription>    
                 
               <h1>Background:</h1>
-              <p> Vivamus at tellus ut urna vehicula volutpat eu quis nisi. <br /><br />
+              <p> Vivamus at tellus ut urna vehicula volutpat eu quis nisi. <br />
                 Morbi elementum arcu ultrices, bibendum justo ac, molestie elit. <br />
                 Sed nec nibh congue, tristique tellus interdum, mattis libero.<br/>
                 In vulputate mi et sodales ultrices.<br/>
