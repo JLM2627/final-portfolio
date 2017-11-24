@@ -17,6 +17,7 @@ display: flex;
 flex-direction: column;
 margin: 100px; 
 h1 {
+    /* display:flex; */
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
     padding: 1px;
