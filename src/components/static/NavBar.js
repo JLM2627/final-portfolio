@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import styled from "styled-components";
 
 const NavBarContainer = styled.div`
+background-color: inherit; 
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
@@ -16,7 +17,7 @@ opacity: 0.4;
 margin: 10px;
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 `;
 
