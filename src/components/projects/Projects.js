@@ -16,14 +16,14 @@ width: auto;
 height: auto;
 display: flex;
 flex-direction: column;
-margin: 100px;
+margin-top: 150px;
 `
 const ProjectDisplay = styled.div`
 /* background-image: url(https://i.imgur.com/AnGTD8V.png); */
 background-size: cover;
-/* background-color: white;
+ background-color: white;
 rgba: (0, 0, 0, 0);
-opacity: 0.2; */
+/* opacity: 0.2;  */
 /* border: 5px double white; */
 /* padding: 5px; */
 text-align: center;
@@ -78,16 +78,18 @@ class Projects extends Component {
                         </ProjectLinks>
                     </Project>
 
-                    {/* <Project>
+                    <Project>
                     <ProjectDisplay>
-                        <h3>Project Title</h3>
-                        <p>Short description</p>
+                        <h3>Neighborhood Crime App</h3>
+                        <p> I created an app for people to post tips on suspicious activity so they and others in the community could be more aware of their surroundings
+
+</p>
                     </ProjectDisplay>
                     <ProjectLinks>
-                        <a href="https://github.com/" target="_blank" >GitHub</a>
-                        <a href="herokuapp.com/" target="_blank" >Deployed</a>
+                        <a href="https://github.com/JLM2627/new_crime" target="_blank" >GitHub</a>
+                        <a href="https://new-crime.herokuapp.com/" target="_blank" >Deployed</a>
                     </ProjectLinks>
-                </Project> */}
+                </Project> 
                 </ProjectWrapper>
             </div>
         );
