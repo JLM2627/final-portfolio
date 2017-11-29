@@ -15,7 +15,7 @@ position: relative;
 /* margin: -145px 0px 0px 0px; */
 text-align: center;
 font-family: 'Josefin Slab';
-font-size: 16px;
+font-size: 30px;
 color: white;
 `
 
@@ -24,7 +24,7 @@ margin: -10px;
 font-family: 'Josefin Slab';
 text-align: center;
 /* font-family: 'Press Start 2P'; */
-font-size: 16px;
+font-size: 30px;
 color: white;
 `
 
