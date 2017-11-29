@@ -16,7 +16,9 @@ width: auto;
 height: auto;
 display: flex;
 flex-direction: column;
-margin-top: 150px;
+margin: 150px;
+
+
 `
 const ProjectDisplay = styled.div`
 /* background-image: url(https://i.imgur.com/AnGTD8V.png); */

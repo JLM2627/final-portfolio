@@ -28,7 +28,7 @@ h1 {
 p {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
 
 }
@@ -47,14 +47,10 @@ class About extends Component {
                < AboutDescription>    
                 
               <h1>Background</h1>
-              <p> Vivamus at tellus ut urna vehicula volutpat eu quis nisi. 
-                Morbi elementum arcu ultrices, bibendum justo ac, molestie elit.
-                Sed nec nibh congue, tristique tellus interdum, mattis libero.
-                In vulputate mi et sodales ultrices.
-                Etiam vitae enim ut quam suscipit sodales in et ligula.
-                Quisque vulputate tellus in lorem elementum, sed pharetra lectus commodo.
-                Sed quis tortor scelerisque, tempus arcu id, efficitur lorem.
-                    Cras a quam vitae odio malesuada finibus.
+              <p> 
+				  Born and raised in the South. <br />
+				  Moved to San Diego, California for 5 years. <br />
+				  Followed my love of helping people from nursing to technology. <br />
                         </p>   
                         </AboutDescription>     
                     </AboutWrapper>
