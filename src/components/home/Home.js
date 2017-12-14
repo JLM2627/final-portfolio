@@ -3,16 +3,16 @@ import styled from 'styled-components';
 
 
 const Title = styled.h1`
-padding: 100px 0 0 0;
+padding-top: 150px ;
 text-align: center;
 font-family: 'Monoton';
-font-size: 32px;
+font-size: 40px;
 color: white;
-/* opacity: 0.6; */
+
 `
 const SubTitle = styled.div`
 position: relative;
-/* margin: -145px 0px 0px 0px; */
+
 text-align: center;
 font-family: 'Josefin Slab';
 font-size: 30px;
@@ -33,7 +33,7 @@ class Home extends Component {
     render() {
         return (
         <div>
-                <Title><h1>Jayme Marshall</h1></Title>
+                <Title><div>Jayme Marshall</div></Title>
                 <SubTitle>  <div>Empathetic Full Stack Developer</div><br /></SubTitle>
              <Comment><div>I care about you and the problems you want to solve</div></Comment>  
                </div>
