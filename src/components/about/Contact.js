@@ -17,13 +17,13 @@ display: flex;
 flex-direction: column;
 margin: 100px; 
 h1 {
-    /* display:flex; */
+    display:flex;
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
     padding: 1px;
     letter-spacing: 1px;
     margin: 8px;
-    /* text-align:center; */
+    text-align:center;
  
 }
 a {
@@ -61,12 +61,4 @@ class Contact extends Component {
 export default Contact;
 
 
- /* display: flex;
-    justify-content: space-around;
-    width: 100vw;
-    height: 50vh;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 5px;
-    margin-top: -15px; */
+ 

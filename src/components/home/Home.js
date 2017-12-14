@@ -6,7 +6,7 @@ const Title = styled.h1`
 padding: 100px 0 0 0;
 text-align: center;
 font-family: 'Monoton';
-font-size: 38px;
+font-size: 32px;
 color: white;
 /* opacity: 0.6; */
 `
@@ -32,12 +32,12 @@ color: white;
 class Home extends Component {
     render() {
         return (
-            <div>
+        <div>
                 <Title><h1>Jayme Marshall</h1></Title>
                 <SubTitle>  <div>Empathetic Full Stack Developer</div><br /></SubTitle>
              <Comment><div>I care about you and the problems you want to solve</div></Comment>  
-               
-            </div>
+               </div>
+   
         );
     }
 }

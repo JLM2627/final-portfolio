@@ -21,13 +21,11 @@ margin: 150px;
 
 `
 const ProjectDisplay = styled.div`
-/* background-image: url(https://i.imgur.com/AnGTD8V.png); */
+
 background-size: cover;
  background-color: white;
 rgba: (0, 0, 0, 0);
-/* opacity: 0.2;  */
-/* border: 5px double white; */
-/* padding: 5px; */
+
 text-align: center;
 width: 325px;
 height: 325px;
